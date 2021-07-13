@@ -1,0 +1,19 @@
+
+fun main(args: Array<String>) {
+
+    val inlove1 = inLove(4,4)
+   val inlove2 = inLove(3,11)
+    val inlove3 = inLove(22,5)
+  println(inlove1);
+  println(inlove2);
+  println(inlove3);
+}
+
+fun inLove(petals1: Int, petals2:Int):
+Boolean{
+    if(petals1 % 2 == 0 && petals2 % 2 == 1) {
+        return true
+    }else {
+        return false
+    }
+}
